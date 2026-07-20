@@ -7,9 +7,16 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <nav>
-      <div class="logo">Multiport LLC</div>
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob blob-blue"></div>
+    <div class="blob blob-green"></div>
+  </div>
+
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-mark">M</span> Multiport LLC
+    </div>
+    <div class="nav-links">
       <div class="nav-dropdown">
         <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
           Our Products <span class="chevron">&#9662;</span>
@@ -31,34 +38,47 @@
           </a>
         </div>
       </div>
-    </nav>
-    <div class="hero-content">
-      <h1>Multiport LLC</h1>
-      <p class="subtitle">The heart of the internet.</p>
+      <a class="nav-cta" href="#products">Explore</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <span class="eyebrow">Multiport LLC</span>
+    <h1>The heart of the internet.</h1>
+    <p class="subtitle">We build small, focused apps that people actually use — from games to everyday tools.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#products">See our products</a>
+      <a class="btn btn-secondary" href="https://games.multiportllc.com" target="_blank" rel="noopener noreferrer">Play Multiport Games</a>
     </div>
   </header>
 
   <main>
     <section class="products" id="products">
-      <h2>Our Products</h2>
+      <span class="eyebrow">Our Products</span>
+      <h2>Made by Multiport</h2>
       <div class="product-grid">
         <a class="product-card" href="https://games.multiportllc.com" target="_blank" rel="noopener noreferrer">
-          <div class="product-icon">🎮</div>
-          <h3>Multiport Games</h3>
-          <p>Play our collection of games, right in your browser.</p>
-          <span class="product-link">games.multiportllc.com &rarr;</span>
+          <div class="product-icon icon-games">🎮</div>
+          <div class="product-info">
+            <h3>Multiport Games</h3>
+            <p>Play our collection of games, right in your browser.</p>
+            <span class="product-link">games.multiportllc.com &rarr;</span>
+          </div>
         </a>
         <a class="product-card" href="https://counterapp.multiportllc.com" target="_blank" rel="noopener noreferrer">
-          <div class="product-icon">🔢</div>
-          <h3>Multiport Counter App</h3>
-          <p>A simple, elegant counter app for everyday tallying.</p>
-          <span class="product-link">counterapp.multiportllc.com &rarr;</span>
+          <div class="product-icon icon-counter">🔢</div>
+          <div class="product-info">
+            <h3>Multiport Counter App</h3>
+            <p>A simple, elegant counter app for everyday tallying.</p>
+            <span class="product-link">counterapp.multiportllc.com &rarr;</span>
+          </div>
         </a>
       </div>
     </section>
   </main>
 
   <footer>
+    <div class="footer-logo"><span class="logo-mark">M</span> Multiport LLC</div>
     <p>&copy; 2026 Multiport LLC. All rights reserved.</p>
   </footer>
 
