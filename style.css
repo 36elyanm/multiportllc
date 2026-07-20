@@ -86,16 +86,10 @@ body {
 }
 
 .logo-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   width: 30px;
   height: 30px;
   border-radius: 9px;
-  background: linear-gradient(135deg, var(--blue), var(--green));
-  color: #fff;
-  font-size: 15px;
-  font-weight: 800;
 }
 
 .nav-links {
