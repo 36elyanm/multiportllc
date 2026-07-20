@@ -10,10 +10,31 @@
   <header class="hero">
     <nav>
       <div class="logo">Multiport LLC</div>
+      <div class="nav-dropdown">
+        <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+          Our Products <span class="chevron">&#9662;</span>
+        </button>
+        <div class="dropdown-menu">
+          <a href="https://games.multiportllc.com" target="_blank" rel="noopener noreferrer">
+            <span class="dropdown-icon">🎮</span>
+            <span>
+              <span class="dropdown-title">Multiport Games</span>
+              <span class="dropdown-domain">games.multiportllc.com</span>
+            </span>
+          </a>
+          <a href="https://counterapp.multiportllc.com" target="_blank" rel="noopener noreferrer">
+            <span class="dropdown-icon">🔢</span>
+            <span>
+              <span class="dropdown-title">Multiport Counter App</span>
+              <span class="dropdown-domain">counterapp.multiportllc.com</span>
+            </span>
+          </a>
+        </div>
+      </div>
     </nav>
     <div class="hero-content">
       <h1>Multiport LLC</h1>
-      <p class="subtitle">Building focused, well-crafted software.</p>
+      <p class="subtitle">The heart of the internet.</p>
     </div>
   </header>
 
@@ -21,11 +42,11 @@
     <section class="products" id="products">
       <h2>Our Products</h2>
       <div class="product-grid">
-        <a class="product-card" href="https://multiportgames.pages.dev" target="_blank" rel="noopener noreferrer">
+        <a class="product-card" href="https://games.multiportllc.com" target="_blank" rel="noopener noreferrer">
           <div class="product-icon">🎮</div>
           <h3>Multiport Games</h3>
           <p>Play our collection of games, right in your browser.</p>
-          <span class="product-link">multiportgames.pages.dev &rarr;</span>
+          <span class="product-link">games.multiportllc.com &rarr;</span>
         </a>
         <a class="product-card" href="https://counterapp.multiportllc.com" target="_blank" rel="noopener noreferrer">
           <div class="product-icon">🔢</div>
@@ -40,5 +61,20 @@
   <footer>
     <p>&copy; 2026 Multiport LLC. All rights reserved.</p>
   </footer>
+
+  <script>
+    const dropdown = document.querySelector('.nav-dropdown');
+    const toggle = dropdown.querySelector('.dropdown-toggle');
+    toggle.addEventListener('click', () => {
+      const isOpen = dropdown.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen);
+    });
+    document.addEventListener('click', (event) => {
+      if (!dropdown.contains(event.target)) {
+        dropdown.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
 </body>
 </html>
