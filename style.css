@@ -186,6 +186,11 @@ body {
 
 .dropdown-icon {
   font-size: 22px;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .dropdown-title {
@@ -316,6 +321,8 @@ body {
   height: 48px;
   border-radius: 14px;
   font-size: 24px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .hero-card-label {
@@ -395,6 +402,7 @@ body {
   width: 64px;
   height: 64px;
   border-radius: 18px;
+  object-fit: cover;
   display: flex;
   align-items: center;
   justify-content: center;
