@@ -444,6 +444,12 @@ footer {
   border-top: 1px solid var(--border);
 }
 
+.tm {
+  font-size: 0.5em;
+  font-weight: 600;
+  margin-left: 2px;
+}
+
 .footer-logo {
   display: inline-flex;
   align-items: center;
