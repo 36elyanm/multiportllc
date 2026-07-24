@@ -417,6 +417,10 @@ body {
   background: linear-gradient(135deg, #00c896, #43e97b);
 }
 
+.icon-support {
+  background: linear-gradient(135deg, #5e5ce6, #bf5af2);
+}
+
 .product-info h3 {
   font-size: 20px;
   font-weight: 700;
