@@ -352,7 +352,49 @@ body {
   }
 
   .hero-visual {
-    height: 220px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .hero-card {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    padding: 14px 20px;
+    gap: 8px;
+  }
+
+  .logo {
+    font-size: 16px;
+  }
+
+  .dropdown-toggle {
+    padding: 8px 14px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .nav-cta {
+    padding: 8px 14px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .dropdown-menu {
+    min-width: 240px;
+    right: -20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav-cta {
+    display: none;
   }
 }
 
