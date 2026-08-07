@@ -398,6 +398,82 @@ body {
   }
 }
 
+/* Features */
+.features {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 6px 0 48px;
+  color: var(--fg);
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.feature-card {
+  padding: 8px;
+  text-align: left;
+}
+
+.feature-icon {
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.feature-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 8px;
+  color: var(--fg);
+}
+
+.feature-card p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* CTA band */
+.cta-band {
+  max-width: 700px;
+  margin: 40px auto 0;
+  padding: 56px 32px;
+  text-align: center;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+}
+
+.cta-band h2 {
+  font-size: clamp(24px, 3.5vw, 34px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 10px;
+  color: var(--fg);
+}
+
+.cta-band p {
+  color: var(--muted);
+  font-size: 16px;
+  margin: 0 0 28px;
+}
+
+.cta-band-actions {
+  justify-content: center;
+}
+
 /* Products */
 .products {
   max-width: 1000px;
@@ -485,8 +561,7 @@ body {
 
 /* Footer */
 footer {
-  text-align: center;
-  padding: 40px 20px;
+  padding: 56px 20px 32px;
   border-top: 1px solid var(--border);
 }
 
@@ -496,18 +571,61 @@ footer {
   margin-left: 2px;
 }
 
+.footer-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
+  padding-bottom: 32px;
+}
+
 .footer-logo {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   font-weight: 700;
   font-size: 15px;
-  margin-bottom: 10px;
   color: var(--fg);
 }
 
-footer p {
+.footer-tagline {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 10px 0 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-heading {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--fg);
+  margin-bottom: 4px;
+}
+
+.footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: var(--blue);
+}
+
+.footer-copyright {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
   color: var(--muted);
   font-size: 13px;
-  margin: 0;
 }
