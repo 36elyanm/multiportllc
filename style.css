@@ -83,6 +83,7 @@ body {
   font-size: 18px;
   letter-spacing: -0.02em;
   color: var(--fg);
+  text-decoration: none;
 }
 
 .logo-mark {
@@ -472,6 +473,58 @@ body {
 
 .cta-band-actions {
   justify-content: center;
+}
+
+/* Legal pages */
+.legal {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 110px 24px 100px;
+}
+
+.legal h1 {
+  font-size: clamp(32px, 5vw, 44px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 6px 0 8px;
+  color: var(--fg);
+}
+
+.legal-updated {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 0 32px;
+}
+
+.legal p {
+  color: var(--fg);
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0 0 20px;
+}
+
+.legal ul {
+  margin: 0 0 20px;
+  padding-left: 22px;
+  color: var(--fg);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.legal li {
+  margin-bottom: 8px;
+}
+
+.legal h2 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--fg);
+  margin: 40px 0 14px;
+}
+
+.legal a {
+  color: var(--blue);
 }
 
 /* Products */
