@@ -596,6 +596,23 @@ body {
   background: linear-gradient(135deg, #ff9500, #ff375f);
 }
 
+.icon-guard {
+  background: linear-gradient(135deg, #1d1d1f, #55606e);
+}
+
+.addon-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--fg);
+  background: rgba(15, 23, 42, 0.06);
+  border-radius: 980px;
+  padding: 3px 10px;
+  margin: 2px 0 10px;
+}
+
 .product-info h3 {
   font-size: 20px;
   font-weight: 700;

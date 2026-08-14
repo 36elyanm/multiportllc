@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.adguard-dns.com/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>94.140.14.14</string>
+                    <string>94.140.15.15</string>
+                </array>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>Sets device DNS resolver for ad blocking</string>
+            <key>PayloadDisplayName</key>
+            <string>Multiport Ad Blocker</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.d2c8f4a9-3b7e-4a1c-9f5d-8e2a6c1b4f37</string>
+            <key>PayloadOrganization</key>
+            <string>Multiport</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>d2c8f4a9-3b7e-4a1c-9f5d-8e2a6c1b4f37</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Configures Multiport Ad Blocker</string>
+    <key>PayloadDisplayName</key>
+    <string>Multiport Ad Blocker</string>
+    <key>PayloadIdentifier</key>
+    <string>com.multiport.adblocker.7b1e9c4f-6a3d-4f8b-8e2c-1d5a7f3b9c62</string>
+    <key>PayloadOrganization</key>
+    <string>Multiport</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>7b1e9c4f-6a3d-4f8b-8e2c-1d5a7f3b9c62</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
