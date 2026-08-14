@@ -592,6 +592,10 @@ body {
   background: linear-gradient(135deg, #5e5ce6, #bf5af2);
 }
 
+.icon-lunchbox {
+  background: linear-gradient(135deg, #ff9500, #ff375f);
+}
+
 .product-info h3 {
   font-size: 20px;
   font-weight: 700;
