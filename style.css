@@ -695,11 +695,30 @@ footer {
   color: var(--blue);
 }
 
-.footer-copyright {
+.footer-bottom {
   max-width: 1000px;
   margin: 0 auto;
   padding-top: 24px;
   border-top: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.footer-copyright {
   color: var(--muted);
   font-size: 13px;
+  margin: 0;
+}
+
+.footer-bottom-link {
+  color: var(--muted);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.footer-bottom-link:hover {
+  color: var(--blue);
 }
